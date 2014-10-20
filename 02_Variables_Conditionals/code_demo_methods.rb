@@ -7,6 +7,7 @@
 #1 - Let's say we wanted to perform the task of multiplying 22 by 44  
 ###########
 ###########
+#dont listen to the hashtag it is lying
 puts (22 * 44)
 	
 #2 - Great, what if we wanted to multiply 22*4 again. If we had to type that out each time, it would be inefficient
@@ -62,7 +63,8 @@ multiply_numbers(1000000000000000, 1)
 #8 - Now, let's look at gets
 ###########
 ###########
-
+number = gets
+puts number + "is my most favorite number"
 
 #9 - So far, we have only been calling methods on their own
 # However, you can also call methods on STRINGS and INTEGERS! Crazy, huh? Let's try.
